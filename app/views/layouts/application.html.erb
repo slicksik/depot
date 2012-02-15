@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Depot</title>
+  <title>Depot | Cyclops Web Studio</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body class= '<%= controller.controller_name %>'>
+	
 
 <%= yield %>
+
+
 
 </body>
 </html>
