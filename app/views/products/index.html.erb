@@ -1,4 +1,4 @@
-<h1>Listing products</h1>
+<h1>Κατάλογος Προιόντων</h1>
 
 <table>
 
@@ -13,13 +13,13 @@
 			<dd><%= product.description %></dd>
 			</dl>
 			</td>
-    <td><%= link_to 'Show', product %></td>
-    <td><%= link_to 'Edit', edit_product_path(product) %></td>
-    <td><%= link_to 'Destroy', product, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= link_to 'Σελίδα Προιόντος', product %></td>
+    <td><%= link_to 'Ανανέωση', edit_product_path(product) %></td>
+    <td><%= link_to 'Διαγραφή', product, confirm: 'Are you sure?', method: :delete %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New Product', new_product_path %>
+<%= link_to 'Προσθήκη Προιόντος', new_product_path %>
